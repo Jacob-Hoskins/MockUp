@@ -18,6 +18,8 @@ nav{
     justify-content: flex-start;
     align-items: flex-end;
     padding: 0;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .right-links{
@@ -25,6 +27,8 @@ nav{
     justify-content:flex-start;
     align-items: flex-end;
     margin-right: 5px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 ul{
@@ -53,6 +57,17 @@ button{
     
 }
 
+.hero{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+.hero-sub{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .random{
     display: flex;
     flex-direction: column;
@@ -62,6 +77,9 @@ button{
 .some{
     margin: auto;
     margin-top: 5vh;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
 }
 
 .box{
@@ -98,6 +116,10 @@ button{
     flex-direction: column;
     gap: 15px;
     padding: 50px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    
 }
 
 .quoter{
@@ -113,7 +135,7 @@ button{
     justify-content: space-evenly;
     align-items: center;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 15vh;
     width: 75%;
     height: 15vh;
     border-radius: 15px;
