@@ -10,13 +10,27 @@ header{
 
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.left-links{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 0;
+}
+
+.right-links{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-end;
 }
 
 ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    justify-content: flex-end;
     gap: 20px;
     text-align: center;
 }
