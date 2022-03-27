@@ -24,6 +24,7 @@ nav{
     display: flex;
     justify-content:flex-start;
     align-items: flex-end;
+    margin-right: 5px;
 }
 
 ul{
@@ -104,4 +105,25 @@ button{
     justify-content: flex-end;
     margin-right: 35px;
     font-weight: bold;
+}
+
+.action{
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    width: 75%;
+    height: 15vh;
+    border-radius: 15px;
+    
+}
+
+footer{
+    text-align: center;
+    padding: 35px;
+    margin-top: 15vh;
+    color: white;
+    background-color: #1f2937;
 }
